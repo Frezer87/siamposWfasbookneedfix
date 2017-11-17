@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_appetizer"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_appetizer"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_appetizer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/appetizers"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_soup"
+            android:layout_width="0dp"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_soup"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_soup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/soups"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_lunch_sides"
+            android:layout_width="0dp"
+            android:layout_marginStart="25dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_lunch_sides"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_lunch_sides"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/soups"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+
+            android:id="@+id/ll_dialog_noodle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp"
+            android:layout_marginTop="18dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_noodle"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_noodle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/noodles"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_entree"
+            android:layout_width="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_entree"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_entree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/entrees"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_house"
+            android:layout_width="0dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_house"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_house"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/house"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_vegetarian"
+            android:layout_width="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_vegetarian"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_vegetarian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/veg"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_curry"
+            android:layout_width="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ib_dialog_curry"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_curry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/curry"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_dessert"
+            android:layout_width="0dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_dessert"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_dessert"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/desserts"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout
+            android:id="@+id/ll_dialog_drink"
+            android:layout_width="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_drink"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_drink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/drinks"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_dialog_wine"
+            android:layout_width="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_wine"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_wine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/wines"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_misc"
+            android:layout_width="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/background_effect"
+            android:layout_height="105dp"
+            android:padding="6dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ib_dialog_misc"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:elevation="0dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_misc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/misc"
+                android:textColor="@color/cardview_dark_background" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

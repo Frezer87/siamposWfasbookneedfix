@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_verify_submit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical"
+    tools:context="com.example.chengen.siamclassic.ActivityVerifySubmit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:weightSum="3">
+
+        <ToggleButton
+            android:id="@+id/tb_verify_din_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:text="ToggleButton"
+            android:textColor="@color/colorPrimary"
+            android:textOff="Dinning-in"
+            android:textOn="Dinning-in" />
+
+        <ToggleButton
+            android:id="@+id/tb_verify_pick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_on_off"
+            android:textColor="@color/colorPrimary"
+            android:textOff="Pick-up"
+            android:textOn="Pick-up" />
+
+        <ToggleButton
+            android:id="@+id/tb_verify_deliver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/toggle_on_off"
+            android:textColor="@color/colorPrimary"
+            android:textOff="Deliver"
+            android:textOn="Deliver" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/ll_dining_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Table Number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <Button
+                        android:id="@+id/table_one"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="1"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_two"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="2"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_three"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="3"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_four"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="4"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_five"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="5"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <Button
+                        android:id="@+id/table_six"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="6"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_seven"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="7"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_eight"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="8"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_nine"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="9"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_ten"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="10"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <Button
+                        android:id="@+id/table_eleven"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="11"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_twelve"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="12"
+                        android:textColor="@color/bg_gray"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/table_thirteen"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="13"
+                        android:textColor="@color/bg_gray" />
+
+                    <Button
+                        android:id="@+id/table_fourteen"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttoneffect"
+                        android:text="14"
+                        android:textColor="@color/bg_gray" />
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/holo_green_light"
+                        android:clickable="false"
+                        android:textColor="@color/bg_gray"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_deliver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="5dp"
+                android:visibility="gone">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_verify_first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First Name"
+                    android:singleLine="true"
+                    android:textColorHighlight="?attr/colorPrimary"
+                    android:textSize="16sp"
+                    app:met_floatingLabel="highlight" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_verify_last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last Name"
+                    android:singleLine="true"
+                    android:textColorHighlight="?attr/colorPrimary"
+                    android:textSize="16sp"
+                    app:met_floatingLabel="highlight" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_verify_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColorHighlight="?attr/colorPrimary"
+                    android:textSize="16sp"
+                    app:met_floatingLabel="highlight" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/et_verify_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Street and Apt."
+                    android:singleLine="true"
+                    android:textColorHighlight="?attr/colorPrimary"
+                    android:textSize="16sp"
+                    app:met_floatingLabel="highlight" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/et_verify_city"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="City"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        android:textColorHighlight="?attr/colorPrimary"
+                        android:textSize="16sp"
+                        app:met_floatingLabel="highlight" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/et_verify_state"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:hint="State"
+                        android:singleLine="true"
+                        android:textColorHighlight="?attr/colorPrimary"
+                        android:textSize="16sp"
+                        app:met_floatingLabel="highlight" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_prox_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_verify_go"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/employee_button_effect"
+            android:text="Continue"
+            android:textColor="@color/bg_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>

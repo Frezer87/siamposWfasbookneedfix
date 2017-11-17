@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/icon_done_off" />
+
+    <TextView
+        android:text="Order Success!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="Call 703-368-5647 within five mins to cancel the order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/tv_cancel_order" />
+
+    <TextView
+        android:text="Subscribe Us on Yelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_success_sub"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:textColor="@drawable/employee_button_effect"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="@string/go_back_to_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_success_home"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:textColor="@drawable/black_text_effect" />
+
+</LinearLayout>

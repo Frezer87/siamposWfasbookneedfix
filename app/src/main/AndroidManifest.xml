@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chengen.siamclassic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_wines"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <activity
+            android:name=".ActivityLaunch"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Account.ActivityCustomerSignUp"
+            android:label="Sign Up"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name="shoppingCart.ActivityShoppingCart" />
+        <activity android:name=".ActivityOrder" />
+        <activity
+            android:name=".Account.ActivityCustomerSignIn"
+            android:label="Sign In"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ActivityVerifySubmit" />
+        <activity
+            android:name="myOrders.ActivityMyOrders"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="letterMenu.ActivitySubCategories"
+            android:label="@string/title_activity_sub_categories"
+            android:theme="@style/AppTheme2"
+            android:screenOrientation="portrait"/>
+    </application>
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+</manifest>

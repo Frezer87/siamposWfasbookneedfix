@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#374f82</color>
+    <color name="colorPrimaryDark">#374f82</color>
+    <color name="colorAccent">#e03851</color>
+    <color name="border">#d7d7d7</color>
+    <color name="semi_transparent">#33000000</color>
+    <color name="bg_gray">#f0f0f0</color>
+    <color name="lv_2">#fdb6b6</color>
+    <color name="lv_3">#fc8a8a</color>
+    <color name="lv_4">#fe6565</color>
+    <color name="lv_5">#fd4949</color>
+    <color name="lv_6">#ff3131</color>
+    <color name="lv_7">#fd1010</color>
+    <color name="semi_light">#6cffffff</color>
+    <color name="colorPrimaryOn">#5679c4</color>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_launch"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chengen.siamclassic.ActivityLaunch"
+    android:background="#d8b177"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/siam_logo"
+        android:id="@+id/imageView"
+        android:layout_marginTop="34dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=" "
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Sign In"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_launch_sign_in"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/customer_button_effect"
+        android:layout_height="55dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="Or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_launch_sign_up"
+        android:background="@drawable/employee_button_effect"
+        android:layout_marginTop="15dp"
+        android:layout_height="55dp"
+        android:textSize="24sp"
+        android:textColor="@color/bg_gray"
+        android:gravity="center" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="1dp" />
+
+    <TextView
+        android:text="Skip >"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_launch_skip"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="end"
+        android:textSize="18sp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@drawable/blue_text_effect" />
+
+</LinearLayout>

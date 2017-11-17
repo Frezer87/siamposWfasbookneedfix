@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:text="@string/address_and_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background" />
+
+    <TextView
+        android:text="@string/_9403_east_street_n_nmanassas_va_20110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text="@string/n_n703_368_5647"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_dialog_phone" />
+
+    <TextView
+        android:text="@string/n_nsiamclassic_outlook_com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_dialog_website" />
+
+    <TextView
+        android:text="@string/hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text="@string/_11_00_am_to_9_30_pm_monday_thru_thursday_n_n11_00_am_to_10_00_pm_friday_n_n4_00_pm_to_10_00_pm_saturday_n_n4_00_pm_to_9_30_pm_sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:text="@string/okay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_okay"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp" />
+</LinearLayout>
